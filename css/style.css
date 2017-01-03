@@ -3,7 +3,37 @@
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+#container {
+  text-align: center;
+}
+
+#nav {
+  padding: 0 0 5px 0;
+}
+
 h1 {
   font-size: 36px;
   text-align: center;
 }
+
+#board {
+  width: 700px;
+  height: 575px;
+  border: black 2px solid;
+  display: inline-block;
+  background-color: grey;
+}
+
+.block {
+  width: 91px;
+  height: 91px;
+  border: black 1px solid;
+  background-color: white;
+  border-radius: 50%;
+  margin: 1px 3px;
+  float: left;
+}
+/*
+.column {
+  float: left;
+}*/
